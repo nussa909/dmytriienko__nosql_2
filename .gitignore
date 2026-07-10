@@ -1,4 +1,5 @@
 .env
 /.venv
 
-/data/arxiv-metadata-oai-snapshot.json
+/data
+/embeddings
