@@ -9,7 +9,6 @@ INPUT_EMBEDDINGS = "embeddings/embeddings.npy"
 MODEL_NAME = 'allenai/specter2_base'
 
 df = pd.read_parquet(INPUT_PARQUET)
-#print(df.head())
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 

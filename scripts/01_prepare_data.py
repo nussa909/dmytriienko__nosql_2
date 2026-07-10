@@ -86,3 +86,7 @@ print(df.iloc[0].to_dict())
 
 df.to_parquet(OUTPUT_FILE, index=False)
 print(f"\\nЗбережено в{OUTPUT_FILE}")
+
+# print(df["category"].value_counts()['cs.LG'])
+# df_cs_lg = df[df["category"] == "cs.LG"]
+# print(df_cs_lg["year"])
